@@ -14,11 +14,6 @@ public:
         
         while(slow!=fast)
          {
-             cout<<"slow"<<slow;
-             cout<<"fast"<<fast;
-    
-            cout<<"slow"<<nums[slow];
-             cout<<"fast"<<nums[fast];
              slow = nums[slow];
              fast = nums[fast];
          }
